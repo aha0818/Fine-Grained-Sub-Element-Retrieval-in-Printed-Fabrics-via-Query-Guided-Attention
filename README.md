@@ -50,9 +50,11 @@ Fine-Grained-Sub-Element-Retrieval-in-Printed-Fabrics-via-Query-Guided-Attention
 # Installation
 Clone this repository:
 
-`git clone https://github.com/aha0818/Fine-Grained-Sub-Element-Retrieval-in-Printed-Fabrics-via-Query-Guided-Attention.git
+```
+git clone https://github.com/aha0818/Fine-Grained-Sub-Element-Retrieval-in-Printed-Fabrics-via-Query-Guided-Attention.git
 
-cd Fine-Grained-Sub-Element-Retrieval-in-Printed-Fabrics-via-Query-Guided-Attention`
+cd Fine-Grained-Sub-Element-Retrieval-in-Printed-Fabrics-via-Query-Guided-Attention
+```
 
 # Usage
 1. **Prepare the Dataset**
