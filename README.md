@@ -15,7 +15,7 @@ Printed fabric images are usually composed of multiple sub-elements, such as Ele
 
 **Experimental Results**: The proposed method demonstrates superior performance, achieving a mean average precision (mAP) of 81.95% on the Oxford5k benchmark and 89.34% on the Paris6k benchmark, outperforming several state-of-the-art approaches. Additionally, validation on a real printed fabric dataset confirms its strong industrial applicability and potential to improve production workflows. The retrieval results of RealPrintedFabrics-13k are shown in Fig.2.
 
-![Retrieval Results](img/Real_Retrieval_Results3.png "Top 10 retrieval results of RealPrintedFabrics-13k")
+![Retrieval](img/Real_Retrieval_Results3.png "Top 10 retrieval results of RealPrintedFabrics-13k")
 
 Fig. 2 Top 10 retrieval results of RealPrintedFabrics-13k
 
@@ -46,7 +46,9 @@ Fine-Grained-Sub-Element-Retrieval-in-Printed-Fabrics-via-Query-Guided-Attention
 Clone this repository:
 
 `git clone https://github.com/aha0818/Fine-Grained-Sub-Element-Retrieval-in-Printed-Fabrics-via-Query-Guided-Attention.git
+
 cd Fine-Grained-Sub-Element-Retrieval-in-Printed-Fabrics-via-Query-Guided-Attention`
+
 # Usage
 1. **Prepare the Dataset**
    Download the SimulatedPrintedFabrics-17k, RealPrintedFabrics-13k, Oxford5k, and Paris6k.
