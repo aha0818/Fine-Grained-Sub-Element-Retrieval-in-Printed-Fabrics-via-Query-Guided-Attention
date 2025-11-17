@@ -3,7 +3,7 @@ This repository contains the implementation of the paper **《Fine-Grained Sub-E
 # Overview
 Accurate fine-grained image retrieval is a critical challenge in pattern recognition, especially in industrial scenarios where local semantic alignment is essential. This work focuses on the specific task of retrieving printed fabric images based on a query sub-element (e.g., a specific pattern or motif), which is a demanding case of pattern search and matching.
 Existing methods relying on global features often fail to capture fine-grained local semantics, limiting their performance in distinguishing fabrics with similar overall appearances but varying sub-element details. To address this gap, we propose a novel two-stage retrieval framework centered on a query-guided attention mechanism. The overall framework is depicted in Fig.1.
-[Framework5.tif](https://github.com/user-attachments/files/23572417/Framework5.tif)
+![Fig. 1 Overview of the proposed framework](https://github.com/user-attachments/files/23572417/Framework5.tif)
 `Fig. 1 Overview of the proposed framework`
 Printed fabric images are usually composed of multiple sub-elements, such as Elements #1 to #5 illustrated in the figure. Taking Element #3 as an example, the retrieval procedure for identifying printed fabric images containing this sub-element employs a two-stage strategy.
 1. **Initial Retrieval**: Narrow down candidate images using global features to obtain a rough ranking.
