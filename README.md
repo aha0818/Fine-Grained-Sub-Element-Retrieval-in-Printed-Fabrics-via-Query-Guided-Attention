@@ -7,12 +7,15 @@ Existing methods relying on global features often fail to capture fine-grained l
 
 ![Proposed ](img/Framework5.png "network architecture")
 
+Fig. 1 Overview of the proposed framework
+
 Printed fabric images are usually composed of multiple sub-elements, such as Elements #1 to #5 illustrated in the figure. Taking Element #3 as an example, the retrieval procedure for identifying printed fabric images containing this sub-element employs a two-stage strategy.
 1. **Initial Retrieval**: Narrow down candidate images using global features to obtain a rough ranking.
 2. **Re-ranking**: Refine the initial results by dynamically highlighting the sub-element details while suppressing irrelevant background patterns via the query-guided attention mechanism.
+
 **Experimental Results**: The proposed method demonstrates superior performance, achieving a mean average precision (mAP) of 81.95% on the Oxford5k benchmark and 89.34% on the Paris6k benchmark, outperforming several state-of-the-art approaches. Additionally, validation on a real printed fabric dataset confirms its strong industrial applicability and potential to improve production workflows. The retrieval results of RealPrintedFabrics-13k are shown in Fig.2.
 
-![Retrieval Results](img/Real Retrieval Results3.tif "Top 10 retrieval results of RealPrintedFabrics-13k")
+![Retrieval Results](img/Real_Retrieval_Results3.png "Top 10 retrieval results of RealPrintedFabrics-13k")
 
 Fig. 2 Top 10 retrieval results of RealPrintedFabrics-13k
 
