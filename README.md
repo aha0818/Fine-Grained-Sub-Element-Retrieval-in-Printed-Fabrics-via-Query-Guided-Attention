@@ -24,6 +24,7 @@ The dataset used in this project includes:
 1. SimulatedPrintedFabrics-17k: a simulated dataset by mimicking printed fabric generation mechanisms for network training.
 2. RealPrintedFabrics-13k: a collected real printed fabric image dataset for performance validation on the real world.
 3. Public benchmarks: Oxford5k and Paris6k (for general fine-grained retrieval validation)
+
 The proposed datasets (SimulatedPrintedFabrics-17k and RealPrintedFabrics-13k) can be accessed from https://www.kaggle.com/datasets/yunjiaoma/finegrainedsubelementretrievaldataset.
 # Repository Structure
 Fine-Grained-Sub-Element-Retrieval-in-Printed-Fabrics-via-Query-Guided-Attention/
