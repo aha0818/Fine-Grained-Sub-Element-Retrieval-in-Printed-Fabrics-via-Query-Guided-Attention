@@ -13,7 +13,7 @@ This stage lays the foundation for efficient and accurate retrieval by filtering
 # Usage
 1. Prepare Data and Weights
    
-   -Dataset: Download the `SimulatedPrintedFabrics-17k` and `RealPrintedFabrics-13k` datasets.
+   -Dataset: Download the `SimulatedPrintedFabrics-17k` and `RealPrintedFabrics-13k` datasets from https://www.kaggle.com/datasets/yunjiaoma/finegrainedsubelementretrievaldataset.
    
    -Pre-trained Weights: Download the `dinov2-pytorch-base-v1` into `Weight_Path/`.
 
