@@ -29,19 +29,23 @@ The proposed datasets (SimulatedPrintedFabrics-17k and RealPrintedFabrics-13k) c
 # Repository Structure
 Fine-Grained-Sub-Element-Retrieval-in-Printed-Fabrics-via-Query-Guided-Attention/
 
-├── Initial_Retrieval/        # Module for initial retrieval (global feature extraction, rough ranking)
+├>Initial_Retrieval  # Module for initial retrieval (global feature extraction, rough ranking)
 
-│   ├── Weight_Path/          # Pre-trained model weights storage
+│ ├─Output  # Initial retrieval results
 
-│   ├── Output/               # Initial retrieval results
+│ ├─Dinov2_finetuning_training.ipynb  # Finetuning the baseline
 
-│   └── [code files]          # Scripts for initial retrieval pipeline
+│ ├─Dinov2_finetuning_evaluate.ipynb  # Evaluating the baseline
 
-├── Reranking/                # Module for re-ranking (query-guided attention refinement)
+│ └─Candidate_pool_generation.ipynb  # Generating retrieval candidate pool
 
-│   └── [code files]          # Scripts for re-ranking with attention mechanism
+├>Reranking  # Module for re-ranking (query-guided attention refinement)
 
-└── README.md                 # Project documentation
+│ ├─Query_guided_attention_training.ipynb  # Training the query-guided attention module
+
+│ └─Query_guided_attention_reranking_and_evaluate.ipynb  # Retrieval results reranking and evaluation
+
+└─README.md   # Project documentation
 
 # Installation
 Clone this repository:
