@@ -12,7 +12,7 @@ Printed fabric images are usually composed of multiple sub-elements, such as Ele
 2. **Re-ranking**: Refine the initial results by dynamically highlighting the sub-element details while suppressing irrelevant background patterns via the query-guided attention mechanism.
 **Experimental Results**: The proposed method demonstrates superior performance, achieving a mean average precision (mAP) of 81.95% on the Oxford5k benchmark and 89.34% on the Paris6k benchmark, outperforming several state-of-the-art approaches. Additionally, validation on a real printed fabric dataset confirms its strong industrial applicability and potential to improve production workflows. The retrieval results of RealPrintedFabrics-13k are shown in Fig.2.
 
-[Real Retrieval Results3.tif](https://github.com/user-attachments/files/23572472/Real.Retrieval.Results3.tif)
+![Proposed ](img/Real Retrieval Results3.tif "Top 10 retrieval results of RealPrintedFabrics-13k")
 
 Fig. 2 Top 10 retrieval results of RealPrintedFabrics-13k
 
